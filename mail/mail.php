@@ -21,4 +21,4 @@ function adopt($text) {
 	return '=?UTF-8?B?'.Base64_encode($text).'?=';
 }
 
-mail($admin_email, adopt($form_subject), $message);
+mail($admin_email, adopt($project_name), $body);
