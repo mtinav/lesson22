@@ -1,0 +1,23 @@
+    .contacts {
+      margin-top: 458px;
+      text-align: center;
+    }
+    .contacts-block {
+      width: 100%;
+      padding: 0;
+      top: -81%;
+      left: 0;
+    }
+    .contacts-block__text img {
+      display: none;
+    }  
+    .contacts-title {
+      text-transform: uppercase;
+    }
+    .production {
+      padding-top: 30px;  
+    }
+    .production-text__descr {
+      max-width: 100%;
+      text-align: center;
+}
