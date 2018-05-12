@@ -22,3 +22,7 @@ function adopt($text) {
 }
 
 mail($admin_email, adopt($project_name), $body);
+
+/**
+ * change
+ */
