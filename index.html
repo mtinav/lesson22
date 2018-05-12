@@ -293,7 +293,7 @@
 							<label for="phone" class="popup-form__label">
 								Введите ваш номер телефона:
 							</label>
-							<input type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" class="popup-form__input" name="phone" required>
+							<input type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" class="popup-form__input" name="user_phone" required>
 							<button class="button popup-form__btn" type="submit">
 								Оставить заявку!
 							</button>
@@ -506,7 +506,7 @@
 						</div><!-- contacts-block__phone -->
 
 						<div class="contacts-block__cta contacts-block__text">
-								<button class="button">Заказать звонок  </button>
+								<button class="footer_callback button">Заказать звонок  </button>
 						</div><!-- contacts-block__cta -->
 
 						<div class="contacts-block__mail contacts-block__text">
@@ -543,7 +543,7 @@
 
 			$(document).ready(function(){
 
-				$('.header-contacts__button').on("click", function(){
+				$('.header-contacts__button, .footer_callback').on("click", function(){
 					$('.overlay').show()
 				});
 				$('.popup-close').on("click", function(){

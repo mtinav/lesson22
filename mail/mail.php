@@ -13,8 +13,8 @@ if ( $_SERVER['REQUEST_METHOD'] !== 'POST' ) {
 }
 $project_name = 'Добрый картон';
 $admin_email = 'valentinamaa@ya.ru';
-$phone = trim($_POST["user_phone"]);
 
+$phone = trim($_POST["user_phone"]);
 $body = "Заявка на обратный звонок на номер: ".$phone;
 
 function adopt($text) {
